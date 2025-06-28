@@ -7,8 +7,8 @@ GPIO.setup(PWM_FWD, GPIO.OUT)
 GPIO.setup(PWM_REV, GPIO.OUT)
 
 # ───── Initialize PWM for forward and reverse motors ─────
-pwm_fwd = GPIO.PWM(PWM_FWD, 100)
-pwm_rev = GPIO.PWM(PWM_REV, 100)
+pwm_fwd = GPIO.PWM(PWM_FWD, PWM_MAX)
+pwm_rev = GPIO.PWM(PWM_REV, PWM_MAX)
 pwm_fwd.start(0)
 pwm_rev.start(0)
 

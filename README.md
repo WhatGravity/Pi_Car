@@ -2,7 +2,6 @@
 
 Das ganze ist aus einem Projekt für ein Fach an der Universität entstanden.
 
-
 # Projekt Flowchart
 
 ## Gesamtarchitektur

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Livestream</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      cursor: pointer;
+      transform: rotate(-90deg);
+      transform-origin: center center;
+      }
+  </style>
+</head>
+<body>
+  <img src="{{ url_for('video_feed') }}">
+</body>
+</html>

@@ -1,4 +1,9 @@
-# Raspberry Pi Car - Projekt Flowchart
+# Raspberry Pi Car
+
+Das ganze ist aus einem Projekt für ein Fach an der Universität entstanden.
+
+
+# Projekt Flowchart
 
 ## Gesamtarchitektur
 

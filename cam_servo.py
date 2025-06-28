@@ -7,13 +7,13 @@ if not pi.connected:
 
 def set_servo_cam_angle_x(angle_x):
     angle_x = max(CAM_MIN, min(CAM_MAX, angle_x))
-    pulse_x = int(1500 + (angle_x / 90.0) * 500)   
+    pulse_x = int(SERVO_MID_PWM + (angle_x / SERVO_MID_DEG) * 500)   
     pi.set_servo_pulsewidth(SERVO_PIN_X, pulse_x)
         
         
 def set_servo_cam_angle_y(angle_y):
     angle_y = max(CAM_MIN, min(CAM_MAX, angle_y))
-    pulse_y = int(1500 + (angle_y / 90.0) * 500) 
+    pulse_y = int(SERVO_MID_PWM + (angle_y / SERVO_MID_DEG) * 500) 
     pi.set_servo_pulsewidth(SERVO_PIN_Y, pulse_y)
 
     
